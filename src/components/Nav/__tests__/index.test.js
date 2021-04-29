@@ -36,7 +36,7 @@ describe('Nav component', () => {
             contactSelected={mockContactSelected}
             setContactSelected={mockSetContactSelected}
         />);
-        expect(asFragment).toMatchSnapshot();
+        expect(asFragment()).toMatchSnapshot();
     });
 
 });
